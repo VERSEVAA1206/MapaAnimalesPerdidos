@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "606417854753",
+    "firebase_url": "https://animalesperdidos-8ef16-default-rtdb.firebaseio.com",
+    "project_id": "animalesperdidos-8ef16",
+    "storage_bucket": "animalesperdidos-8ef16.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606417854753:android:385f0d5b28baeb84c55e60",
+        "android_client_info": {
+          "package_name": "com.example.mapaanimalesperdidos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606417854753-eu8fnber8l9jqk80fsti53rac6q0qgd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapaanimalesperdidos",
+            "certificate_hash": "45248dc9fcf9052749a5547ab8507d6c8f16db87"
+          }
+        },
+        {
+          "client_id": "606417854753-3p8ea3qqjqcqm3a9oo2ca99fmqvp70vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVSxtcclgWSGFuWatzzI4o3eiZvSvOGoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606417854753-3p8ea3qqjqcqm3a9oo2ca99fmqvp70vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F1F8E9">
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="24dp"
+      android:drawableTop="@drawable/parque_para_perros"
+      android:text="Iniciar Sesión"
+      android:textColor="#2E7D32"
+      android:textSize="22sp"
+      android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/editUsuario"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Usuario"
+      android:textColor="#000000"
+      android:textColorHint="#757575"
+      android:inputType="textPersonName"
+      android:background="@drawable/edit_text_bg"
+      android:padding="10dp"
+      android:layout_marginBottom="12dp"/>
+
+  <EditText
+      android:id="@+id/editClave"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textPassword"
+      android:textColor="#000000"
+      android:textColorHint="#757575"
+      android:background="@drawable/edit_text_bg"
+      android:hint="Contraseña"
+      android:padding="10dp"
+      android:layout_marginBottom="12dp"/>
+
+  <Button
+      android:id="@+id/btnLogin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ingresar"
+      android:backgroundTint="#388E3C"
+      android:textColor="#FFFFFF" />
+  <!-- Botón para iniciar sesión con Google -->
+  <Button
+      android:id="@+id/btnGoogleLogin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btnGoogleLogin"
+      android:layout_marginBottom="16dp"
+      android:backgroundTint="#388E3C"
+      android:text="Iniciar sesión con Google"
+      android:textAlignment="center"
+      app:icon="@drawable/google_chrome"
+      app:iconGravity="textEnd"
+      app:iconTint="#DDFAC1"
+      app:iconSize="32dp"
+      />
+
+</LinearLayout>

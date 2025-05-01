@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCEDB9"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título decorativo -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reportes Disponibles"
+        android:textSize="24sp"
+        android:textColor="#43A047"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- Lista estilizada -->
+    <ListView
+        android:id="@+id/listaReportes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ECF6E1"
+        android:cacheColorHint="#000000"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/darker_gray"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:theme="@style/Theme.MapaAnimalesPerdidos" />
+
+</LinearLayout>

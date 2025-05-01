@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Botón Volver -->
+        <ImageButton
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_arrow"
+            android:contentDescription="Volver"
+            android:layout_gravity="start"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Imagen del reporte -->
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Foto del reporte"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Información del reporte -->
+        <TextView
+            android:id="@+id/txtNombre"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtUbicacion"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Botón Compartir -->
+        <ImageButton
+            android:id="@+id/btnCompartir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share"
+            android:contentDescription="Compartir"
+            android:layout_gravity="end"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

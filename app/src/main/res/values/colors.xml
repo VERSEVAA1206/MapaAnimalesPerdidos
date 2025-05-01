@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores del tema claro -->
+    <color name="colorPrimary">#388E3C</color>
+    <color name="colorPrimaryVariant">#2E7D32</color>
+    <color name="colorSecondary">#8BC34A</color>
+    <color name="colorSecondaryVariant">#8BC34A</color>
+    <color name="background">#F1F8E9</color>
+
+    <!-- Colores para el tema oscuro (usados por Theme.Dark) -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <!-- Colores básicos -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
